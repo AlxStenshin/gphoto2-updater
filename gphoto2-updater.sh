@@ -161,7 +161,7 @@ echo "Downloading libgphoto2"
 echo "----------------------"
 echo
 
-if (git clone $branch_libgphoto https://github.com/gphoto/libgphoto2.git)
+if (git clone $branch_libgphoto https://github.com/timelapseplus/libgphoto2)
     then
         cd libgphoto2/
 	else
